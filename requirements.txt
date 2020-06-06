@@ -1,10 +1,6 @@
 asgiref==3.2.7
 autopep8==1.5.2
-<<<<<<< HEAD
 Django==2.2
-=======
-Django==3.0.7
->>>>>>> 3516018dc760b99a713ad40e273733998e4248c3
 pycodestyle==2.6.0
 pytz==2020.1
 sqlparse==0.3.1
