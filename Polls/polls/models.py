@@ -1,11 +1,9 @@
 from django.db import models
-from django.utils import timezone
 
 
 class Question(models.Model):
     question = models.CharField(max_length=600, null=False)
-    created_on = models.DateTimeField(
-        default=timezone.localtime(timezone.now()))
+    created_on = models.DateTimeField(auto_now_add=True)
 
 
 class Choice(models.Model):
